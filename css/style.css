@@ -270,3 +270,40 @@ border-radius: 25px;
 .pie{
   grid-area: pie;
 }
+
+@media screen and (max-width: 480px) {
+  .grid{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .titulo{
+    font-size: 25px;
+  }
+
+.imagen{
+  width: 300px;
+  height: 300px;
+}
+
+.video{
+  width: 300px;
+  height: 200px;
+  margin-left: 20%;
+}
+
+.yt{
+  height: 100px;
+  width: 100px;
+}
+
+.pie{
+  width: 400px;
+  height: 250px;
+  background-color: rgba(255, 255, 255, 0);
+}
+
+h3{
+  font-size: 15px;
+}
+}
