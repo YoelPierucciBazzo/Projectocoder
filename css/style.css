@@ -246,3 +246,24 @@ border-radius: 25px;
   width: 862px;
   height: 458px;
 }
+
+.contendor_principal{
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-areas: "cabecera" 
+                        "principal"
+                        "pie";
+}
+
+.cabecera{
+  grid-area: cabecera;
+}
+
+.principal{
+  grid-area: principal;
+}
+
+.pie{
+  grid-area: pie;
+}
