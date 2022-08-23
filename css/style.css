@@ -31,6 +31,9 @@ top: 0%;
         height: 100px;
         width: 100px;
         text-align: center;
+        animation-name: movimiento_logo;
+        animation-duration: 4s;
+        animation-iteration-count: infinite;
 }
 
 
@@ -307,3 +310,11 @@ h3{
   font-size: 15px;
 }
 }
+
+@keyframes movimiento_logo {
+  0% {
+           transform: rotateY(0);
+  }
+  100% {
+            transform: rotate(360deg);
+  }
