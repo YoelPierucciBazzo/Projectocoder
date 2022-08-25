@@ -5,43 +5,48 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PRINCIPAL</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
     <link rel="shortcut icon" href="./images/favicon.png">
     <link rel="stylesheet" href="./css/style.css">
 </head>
 <body class="grid">
     <header class="cabecera"> 
-<nav class="caja_nav" >
-    <img id="logo" src="./images/riverlogo.png" alt="Logo river plate" width="120px" height="120px">
-        <ul>
-        <li class="nav_items active">
-            <a href="#">PRINCIPAL</a>
-        </li>
-        <li class="nav_items">
-            <a href="./pages/camisetas.html">UNIFORMES</a> 
-        </li>
-        <li class="nav_items">
-            <a href="./pages/estadio.html">ESTADIO</a>
-        </li>
-        <li class="nav_items">
-            <a href="./pages/historia.html">HISTORIA</a> 
-            <ul>
-               <a href="https://www.youtube.com/watch?v=aX1mLqdkRKk" target="_blank"><li>LA MAQUINA</li> </a> 
-                <a href="https://www.youtube.com/watch?v=P15AGDazcnE" target="_blank"><li>LA ERA GALLARDO</li> </a> 
-            </ul>
-        </li>
-        <li class="nav_items">
-            <a href="./pages/contacto.html">CONTACTO</a>
-        </li>
-    </ul>
-    </ol>
-
-</nav>
+        <nav class="navbar navbar-expand-lg navbar-white" style="background-color: #e3f2fd;">
+            <div class="container-fluid justify-content-center">
+              <a class="navbar-brand" href="#"><img id="logo" src="./images/riverlogo.png" alt="Logo river plate" width="120px" height="120px"></a>
+              <div class="" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auro mb-0 mb-lg-0 ">
+                  <li class="nav-item">
+                    <a class="nav-link active fs-4" aria-current="page" href="./index.html">PRINCIPAL</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link fs-4" href="./pages/camisetas.html">UNIFORMES</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle fs-4" href="./pages/historia.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      HISTORIA
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item fs-5 bg bg-light" href="https://www.youtube.com/watch?v=aX1mLqdkRKk" target="_blank">LA MAQUINA</a></li>
+                      <li><a class="dropdown-item fs-5 bg-light" href="https://www.youtube.com/watch?v=P15AGDazcnE" target="_blank">LA ERA GALLARDO</a></li>
+                   </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link fs-4" href="./pages/estadio.html">ESTADIO</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link fs-4" href="./pages/contacto.html">CONTACTO</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
     </header>
 <hr>
     <main class="principal">
 
-        <h1 class="texto__principal" >BIENVENIDOS A UNA PAGINA SOBRE RIVER PLATE</h1>
-        <h3 class="texto" >El Club Atlético River Plate es una entidad polideportiva con sede en Buenos Aires, Argentina. Fue fundado el 25 de mayo de 1901 en el barrio de La Boca, tras la fusión de los clubes Santa Rosa y La Rosales, y su nombre proviene de la antigua denominación que se le daba en el inglés británico al Río de la Plata. Su principal actividad es el fútbol masculino profesional, el cual participa en la Liga Profesional de Fútbol. Disputa sus partidos en el estadio Mâs Monumental, el de mayor capacidad del país y el sexto de América, con una capacidad para 72 054 espectadores.
+        <h1 class="texto__principal rounded-pill text-secondary" >BIENVENIDOS A UNA PAGINA SOBRE RIVER PLATE</h1>
+        <h3 class="texto rounded-top fs-5 text-white-50" >El Club Atlético River Plate es una entidad polideportiva con sede en Buenos Aires, Argentina. Fue fundado el 25 de mayo de 1901 en el barrio de La Boca, tras la fusión de los clubes Santa Rosa y La Rosales, y su nombre proviene de la antigua denominación que se le daba en el inglés británico al Río de la Plata. Su principal actividad es el fútbol masculino profesional, el cual participa en la Liga Profesional de Fútbol. Disputa sus partidos en el estadio Mâs Monumental, el de mayor capacidad del país y el sexto de América, con una capacidad para 72 054 espectadores.
             Es uno de los clubes más exitosos del mundo con un total de 69 títulos en su palmarés. Es el club más ganador de la Primera División de Argentina, con 37 campeonatos conseguidos —incluyendo el campeonato argentino de 1920 ganado en la era amateur del fútbol argentino—. También es el segundo club más ganador de copas nacionales con 14 títulos. Es el segundo club más ganador de la Copa Argentina con 3 títulos y el más ganador de la Supercopa Argentina con 2 trofeos. Ostenta el récord de ser el club más ganador del fútbol argentino desde su profesionalización en 1931 sumando 66 títulos oficiales.
         </h3>
     </main>
@@ -56,5 +61,6 @@
         <a href="./pages/contacto.html"><img width="90px" height="90px" src="./images/contacto.png" alt="Foto de un correo"> </a> 
         <a href="./pages/contacto.html"><h3>Contacta con nosotros</h3></a>
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
 </body>
 </html>
